@@ -5,6 +5,7 @@ body {
     font-size: 16px;
     background-color: #FFF8F0;
     max-width: 1440px;
+    position:relative
 }
 
 
@@ -185,6 +186,22 @@ h1 {
     cursor: pointer;
 }
 
+.Purple_Ellipse {
+    position:absolute;
+    z-index:-1;
+    height: 160px;
+    width: 300.5px;
+    left: 720.8px;
+    top: 40.5px;
+    border-radius: 0px;
+    background: #DC93FF;
+    filter: blur(100px);
+    transform: rotate(133.77deg);
+
+
+
+}
+
 
 /*WHAT I DO SECTION*/
 
@@ -194,6 +211,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     margin-top: 96px;
+    padding-bottom:10px;
 
 }
 
@@ -263,6 +281,7 @@ h2 {
     background: #FFFFFF;
     box-shadow: 6px 2px 25px -9px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    position:relative;
 }
 
 .card-title {
@@ -296,6 +315,28 @@ h2 {
 
 }
 
+.blue-blob{
+    position:absolute;
+    z-index:-1;
+    height: 300px;
+width: 321.69317626953125px;
+left: 1027px;
+top: 720px;
+border-radius: 0px;
+
+  }
+
+  .coral-blob{
+    position:absolute;
+    z-index:-1;
+    height: 300px;
+    width: 330.2207336425781px;
+    left: 78px;
+    top: 950px;
+    border-radius: 0px;
+    
+  }
+
 /* MY PROJECT SECTION */
 
 .myProjects {
@@ -303,8 +344,15 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 96px;
+    margin-top: 110px;
     margin-bottom: 127px;
+    
+}
+
+.project-wrapper{
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
 .project-section-wrapper {
@@ -418,6 +466,24 @@ h2 {
 .image-link {
     padding-left: 6.8px;
     width: 8.4px;
+}
+
+
+.Yellow_Ellipse {
+    position:absolute;
+    z-index:-1;
+    height: 300px;
+    width: 300px;
+    left: -150px;
+    top: 1931px;
+   
+    
+border-radius: 0px;
+background: #FFB800;
+filter: blur(250px);
+
+
+
 }
 
 /* PRICING SECTION */
@@ -595,6 +661,22 @@ h2 {
     background-color: white;
     transition: ease-in;
     cursor: pointer;
+
+
+
+}
+
+.Blue_Ellipse {
+    position:absolute;
+    z-index:-1;
+    height: 300px;
+width: 300px;
+left: 1290px;
+top: 2657px;
+border-radius: 0px;
+
+background: #64DAFF;
+filter: blur(250px);
 
 
 
